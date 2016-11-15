@@ -1,0 +1,219 @@
+@import (reference) '../core.less';
+#home{
+  .header{
+    display: inline-block;
+    width: 100%;
+    height: 5.63rem;
+    background-color: #2A98FF;
+    position: relative;
+    .for(4);.-each(@i){
+        .s@{i} {
+          .bg_p('s@{i}')
+        }
+    }
+    .for(4);.-each(@i){
+        .bs@{i} {
+          .bg_p('bs@{i}')
+        }
+    }
+    .badge{
+      margin-top: .34rem;
+      .s{
+        width: 1.42rem;
+        height: 1.91rem;
+      }
+    }
+    p{
+      color: #fff;
+    }
+    .info{
+      font-size: .3rem;
+      margin-top: .35rem;
+    }
+    .desc{
+      font-size: .24rem;
+      margin-top: .14rem;
+    }
+    .progress{
+      position: relative;
+      margin-top: .4rem;
+      .ls{
+        position: absolute;
+        top:0;
+        width: 1rem;
+        height: 1rem;
+        .s{
+          width: .62rem;
+          height: .62rem;
+          display: block;
+          .center;
+        }
+        .i{
+          font-size: .2rem;
+          text-align: center;
+          margin-top: .2rem;
+        }
+      }
+      @array:0.6rem,2.36rem,4.12rem,5.87rem;
+      .for(@array);.-each(@v){
+        .ls@{i}{
+          left: @v;
+        }
+      }
+      .dashed{
+        border:1px dashed #C4E2FF;
+        position: absolute;
+        left: 0;
+        top:0.29rem;
+        width: 7.5rem;
+      }
+      .solid{
+        border:1px solid #C4E2FF;
+        position: absolute;
+        left: 0;
+        top:0.29rem;
+        width: 0;
+        .transition(width 600ms ease);
+      }
+      .bw,.avater{
+        width: .62rem;
+        height: .62rem;
+        display: block;
+        border:1px solid #9FD0FF;
+        border-radius: 50%;
+        position: absolute;
+        // left: 0.7rem;
+        left: -1rem;
+        .transition(left 600ms ease);
+        &.bw1{
+          .animation(bw1 2s linear  infinite);
+        }
+        &.bw2{
+          .animation(bw1 2s linear 1s infinite);
+        }
+        .keyframes(bw1);.-frames(@-...) {
+            0% {
+                @{-}transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                @{-}transform: scale(1.4);
+                opacity: 0;
+            }
+        }
+      }
+      .avater{
+        border:3px solid #fff;
+      }
+      .for(@array);.-each(@v){
+        &.p@{i} .solid{
+          width: @v+0.4rem;
+        }
+        &.pw@{i} .bw{
+          left: @v+0.19rem;
+        }
+        &.pw@{i} .avater{
+          left: @v+0.19rem;
+        }
+      }
+
+    }
+    .tip{
+      position: absolute;
+      bottom: 0;
+      width: 7.5rem;
+      .hlh(.6rem);
+      background-color: #5DB1FF;
+      color: #fff;
+      font-size: .2rem;
+    }
+  }
+  .label{
+    width: 100%;
+    height: .7rem;
+    background-color: #F7F9FA;
+    padding: 0 .3rem;
+    p{
+      line-height: .7rem;
+      height: .7rem;
+      color: #ACACAC;
+    }
+    .left{
+      font-size: .26rem;
+      .o{
+        color: #FFA839;
+      }
+    }
+    .right{
+      font-size: .2rem;
+    }
+  }
+  .list{
+    width: 100%;
+    border-top: 1px solid #E7E7E7;
+    li{
+      padding: 0 .3rem;
+    }
+    .item{
+      display: block;
+      height: 1.2rem;
+      border-bottom: 1px solid #E7E7E7;
+      position: relative;
+      .img{
+        width: .48rem;
+        height: .48rem;
+        margin-top: (1.2-.48)/2rem;
+        margin-right: .26rem;
+      }
+      .name{
+        color: #5C6166;
+        margin-top: .3rem;
+        font-size: .3rem;
+      }
+      .desc{
+        color: #ACACAC;
+        font-size: .24rem;
+        margin-top: .1rem;
+        width: 5.7rem;
+        white-space:pre;
+        .text-overflow(ellipsis);
+      }
+      .icon_right{
+        width: .14rem;
+        height: .25rem;
+        .bg_p('icon_right');
+        position: absolute;
+        right: .05rem;
+        top: .46rem;
+      }
+      &.disabled{
+        .img{
+          -webkit-filter: grayscale(100%);
+          -moz-filter: grayscale(100%);
+          -ms-filter: grayscale(100%);
+          -o-filter: grayscale(100%);
+          filter: grayscale(100%);
+          filter: gray;
+        }
+        .name{
+          color: #ACACAC;
+        }
+        .icon_right{
+          display: none;
+        }
+      }
+    }
+  }
+  .footer{
+    .btn_next{
+      width: 7rem;
+      .hlh(1rem);
+      background-color: @b;
+      color: #fff;
+      border-radius: 0.1rem;
+      font-size: .38rem;
+      margin-top: .21rem;
+      display: block;
+    }
+  }
+}

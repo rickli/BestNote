@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22195F041DC1E39400FF6795 /* BestNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AAF3C1DC09F0E00217AEA /* BestNoteTests.m */; };
+		22195F091DC1E74800FF6795 /* libPods-BestNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 566251D7C31DFBF76B2860AC /* libPods-BestNote.a */; };
+		222673531DD2D8F9003A73FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 222673411DD2D8F9003A73FA /* AppDelegate.m */; };
+		222673551DD2D8F9003A73FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222673431DD2D8F9003A73FA /* LaunchScreen.storyboard */; };
+		222673561DD2D8F9003A73FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222673451DD2D8F9003A73FA /* Main.storyboard */; };
+		222673571DD2D8F9003A73FA /* BestNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 222673471DD2D8F9003A73FA /* BestNote.xcdatamodeld */; };
+		222673591DD2D8F9003A73FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226734A1DD2D8F9003A73FA /* main.m */; };
+		2226735A1DD2D8F9003A73FA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226734D1DD2D8F9003A73FA /* User.m */; };
+		2226735B1DD2D8F9003A73FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2226734F1DD2D8F9003A73FA /* ViewController.m */; };
+		227AAF481DC09F0E00217AEA /* BestNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 227AAF471DC09F0E00217AEA /* BestNoteUITests.m */; };
+		22A7DD001DD180060037C996 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A7DCFF1DD180060037C996 /* UserNotifications.framework */; };
+		22F7C0431DD2F7FD00043562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F7C03F1DD2F7FD00043562 /* Assets.xcassets */; };
+		22F7C0441DD2F7FD00043562 /* BestNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F7C0401DD2F7FD00043562 /* BestNote.xcdatamodeld */; };
+		22F7C0451DD2F7FD00043562 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22F7C0421DD2F7FD00043562 /* Info.plist */; };
+		22F7C04B1DD2FC1800043562 /* bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22F7C04A1DD2FC1800043562 /* bundle */; };
+		22F985661DDAB16700C21F84 /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F985651DDAB16700C21F84 /* ReactView.m */; };
+		47DB3C899D6FCA3CEF1A2D8A /* libPods-BestNoteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D79DC37A4619C816138F955 /* libPods-BestNoteUITests.a */; };
+		5EDC2DBFBA933A0DD3ED9CEE /* libPods-BestNoteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD53DC826FDE4101BA076B9B /* libPods-BestNoteTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227AAF391DC09F0E00217AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227AAF141DC09F0E00217AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227AAF1B1DC09F0E00217AEA;
+			remoteInfo = BestNote;
+		};
+		227AAF441DC09F0E00217AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227AAF141DC09F0E00217AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227AAF1B1DC09F0E00217AEA;
+			remoteInfo = BestNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057CBA36968A9DE76ED639B6 /* Pods-BestNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestNoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestNoteTests/Pods-BestNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		208A8476FE7E81BE9D425225 /* Pods-BestNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestNote/Pods-BestNote.debug.xcconfig"; sourceTree = "<group>"; };
+		22195F051DC1E62F00FF6795 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "../../../../../Library/Developer/Xcode/DerivedData/BestNote-apuhibdhwjuqfhfuuthxifkchjgr/Build/Products/Debug-iphoneos/Kiwi/libKiwi.a"; sourceTree = "<group>"; };
+		22195F071DC1E63600FF6795 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../../../Library/Developer/Xcode/DerivedData/BestNote-apuhibdhwjuqfhfuuthxifkchjgr/Build/Products/Debug-iphoneos/React/libReact.a"; sourceTree = "<group>"; };
+		222673401DD2D8F9003A73FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		222673411DD2D8F9003A73FA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		222673441DD2D8F9003A73FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222673461DD2D8F9003A73FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222673481DD2D8F9003A73FA /* BestNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BestNote.xcdatamodel; sourceTree = "<group>"; };
+		2226734A1DD2D8F9003A73FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2226734C1DD2D8F9003A73FA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		2226734D1DD2D8F9003A73FA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		2226734E1DD2D8F9003A73FA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2226734F1DD2D8F9003A73FA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		227AAF1C1DC09F0E00217AEA /* BestNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227AAF381DC09F0E00217AEA /* BestNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227AAF3C1DC09F0E00217AEA /* BestNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestNoteTests.m; sourceTree = "<group>"; };
+		227AAF3E1DC09F0E00217AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227AAF431DC09F0E00217AEA /* BestNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227AAF471DC09F0E00217AEA /* BestNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BestNoteUITests.m; sourceTree = "<group>"; };
+		227AAF491DC09F0E00217AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227AAF6D1DC1D9A400217AEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22A7DCFF1DD180060037C996 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		22F7C03F1DD2F7FD00043562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F7C0411DD2F7FD00043562 /* BestNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BestNote.xcdatamodel; sourceTree = "<group>"; };
+		22F7C0421DD2F7FD00043562 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F7C04A1DD2FC1800043562 /* bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundle; sourceTree = SOURCE_ROOT; };
+		22F985641DDAB16700C21F84 /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
+		22F985651DDAB16700C21F84 /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		566251D7C31DFBF76B2860AC /* libPods-BestNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D79DC37A4619C816138F955 /* libPods-BestNoteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestNoteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E1BE0174163A7B3AB42C16 /* Pods-BestNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestNoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestNoteUITests/Pods-BestNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD53DC826FDE4101BA076B9B /* libPods-BestNoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BestNoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C745FE88104E560794EB7817 /* Pods-BestNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestNoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestNoteUITests/Pods-BestNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D686BA32D9D91377344E3668 /* Pods-BestNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestNoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BestNoteTests/Pods-BestNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E7E58B96CE6A334E848C4A /* Pods-BestNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-BestNote/Pods-BestNote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227AAF191DC09F0E00217AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A7DD001DD180060037C996 /* UserNotifications.framework in Frameworks */,
+				22195F091DC1E74800FF6795 /* libPods-BestNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227AAF351DC09F0E00217AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDC2DBFBA933A0DD3ED9CEE /* libPods-BestNoteTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227AAF401DC09F0E00217AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DB3C899D6FCA3CEF1A2D8A /* libPods-BestNoteUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2226733F1DD2D8F9003A73FA /* BestNote */ = {
+			isa = PBXGroup;
+			children = (
+				22F7C04A1DD2FC1800043562 /* bundle */,
+				222673401DD2D8F9003A73FA /* AppDelegate.h */,
+				222673411DD2D8F9003A73FA /* AppDelegate.m */,
+				222673431DD2D8F9003A73FA /* LaunchScreen.storyboard */,
+				222673451DD2D8F9003A73FA /* Main.storyboard */,
+				222673471DD2D8F9003A73FA /* BestNote.xcdatamodeld */,
+				2226734A1DD2D8F9003A73FA /* main.m */,
+				2226734B1DD2D8F9003A73FA /* Models */,
+				2226734E1DD2D8F9003A73FA /* ViewController.h */,
+				2226734F1DD2D8F9003A73FA /* ViewController.m */,
+				22F985631DDAB16700C21F84 /* ReactViews */,
+			);
+			path = BestNote;
+			sourceTree = "<group>";
+		};
+		2226734B1DD2D8F9003A73FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2226734C1DD2D8F9003A73FA /* User.h */,
+				2226734D1DD2D8F9003A73FA /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		227AAF131DC09F0E00217AEA = {
+			isa = PBXGroup;
+			children = (
+				2226733F1DD2D8F9003A73FA /* BestNote */,
+				22F7C03E1DD2F7FD00043562 /* Resource */,
+				227AAF3B1DC09F0E00217AEA /* BestNoteTests */,
+				227AAF461DC09F0E00217AEA /* BestNoteUITests */,
+				227AAF1D1DC09F0E00217AEA /* Products */,
+				F68CDF9E81FAD1B1B1E337C0 /* Pods */,
+				DEB9C1E939C04F51ED383587 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		227AAF1D1DC09F0E00217AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227AAF1C1DC09F0E00217AEA /* BestNote.app */,
+				227AAF381DC09F0E00217AEA /* BestNoteTests.xctest */,
+				227AAF431DC09F0E00217AEA /* BestNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227AAF3B1DC09F0E00217AEA /* BestNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				227AAF3C1DC09F0E00217AEA /* BestNoteTests.m */,
+				227AAF3E1DC09F0E00217AEA /* Info.plist */,
+			);
+			path = BestNoteTests;
+			sourceTree = "<group>";
+		};
+		227AAF461DC09F0E00217AEA /* BestNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				227AAF471DC09F0E00217AEA /* BestNoteUITests.m */,
+				227AAF491DC09F0E00217AEA /* Info.plist */,
+			);
+			path = BestNoteUITests;
+			sourceTree = "<group>";
+		};
+		22F7C03E1DD2F7FD00043562 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				22F7C03F1DD2F7FD00043562 /* Assets.xcassets */,
+				22F7C0401DD2F7FD00043562 /* BestNote.xcdatamodeld */,
+				22F7C0421DD2F7FD00043562 /* Info.plist */,
+			);
+			name = Resource;
+			path = BestNote/Resource;
+			sourceTree = "<group>";
+		};
+		22F985631DDAB16700C21F84 /* ReactViews */ = {
+			isa = PBXGroup;
+			children = (
+				22F985641DDAB16700C21F84 /* ReactView.h */,
+				22F985651DDAB16700C21F84 /* ReactView.m */,
+			);
+			path = ReactViews;
+			sourceTree = "<group>";
+		};
+		DEB9C1E939C04F51ED383587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A7DCFF1DD180060037C996 /* UserNotifications.framework */,
+				22195F071DC1E63600FF6795 /* libReact.a */,
+				22195F051DC1E62F00FF6795 /* libKiwi.a */,
+				227AAF6D1DC1D9A400217AEA /* XCTest.framework */,
+				566251D7C31DFBF76B2860AC /* libPods-BestNote.a */,
+				BD53DC826FDE4101BA076B9B /* libPods-BestNoteTests.a */,
+				6D79DC37A4619C816138F955 /* libPods-BestNoteUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F68CDF9E81FAD1B1B1E337C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				208A8476FE7E81BE9D425225 /* Pods-BestNote.debug.xcconfig */,
+				F5E7E58B96CE6A334E848C4A /* Pods-BestNote.release.xcconfig */,
+				D686BA32D9D91377344E3668 /* Pods-BestNoteTests.debug.xcconfig */,
+				057CBA36968A9DE76ED639B6 /* Pods-BestNoteTests.release.xcconfig */,
+				C745FE88104E560794EB7817 /* Pods-BestNoteUITests.debug.xcconfig */,
+				85E1BE0174163A7B3AB42C16 /* Pods-BestNoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227AAF1B1DC09F0E00217AEA /* BestNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227AAF4C1DC09F0E00217AEA /* Build configuration list for PBXNativeTarget "BestNote" */;
+			buildPhases = (
+				6F9B1134F32478B0D025043E /* [CP] Check Pods Manifest.lock */,
+				227AAF181DC09F0E00217AEA /* Sources */,
+				227AAF191DC09F0E00217AEA /* Frameworks */,
+				227AAF1A1DC09F0E00217AEA /* Resources */,
+				62548DA6256433F46E1931D3 /* [CP] Embed Pods Frameworks */,
+				FBC1A6D7B6DFB50C9E620CBA /* [CP] Copy Pods Resources */,
+				222673301DD2D03B003A73FA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestNote;
+			productName = BestNote;
+			productReference = 227AAF1C1DC09F0E00217AEA /* BestNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227AAF371DC09F0E00217AEA /* BestNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227AAF4F1DC09F0E00217AEA /* Build configuration list for PBXNativeTarget "BestNoteTests" */;
+			buildPhases = (
+				7A98F02F47FB1C0B8A5BFB61 /* [CP] Check Pods Manifest.lock */,
+				227AAF341DC09F0E00217AEA /* Sources */,
+				227AAF351DC09F0E00217AEA /* Frameworks */,
+				227AAF361DC09F0E00217AEA /* Resources */,
+				8305EA95873F908449DF53F0 /* [CP] Embed Pods Frameworks */,
+				C486E5107F58071E465BA52F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227AAF3A1DC09F0E00217AEA /* PBXTargetDependency */,
+			);
+			name = BestNoteTests;
+			productName = BestNoteTests;
+			productReference = 227AAF381DC09F0E00217AEA /* BestNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		227AAF421DC09F0E00217AEA /* BestNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227AAF521DC09F0E00217AEA /* Build configuration list for PBXNativeTarget "BestNoteUITests" */;
+			buildPhases = (
+				E82BD5873C1D1AA82E934E5C /* [CP] Check Pods Manifest.lock */,
+				227AAF3F1DC09F0E00217AEA /* Sources */,
+				227AAF401DC09F0E00217AEA /* Frameworks */,
+				227AAF411DC09F0E00217AEA /* Resources */,
+				9F7612B3B9E67C1D05242C35 /* [CP] Embed Pods Frameworks */,
+				7A8B297311A09744CEEC4148 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227AAF451DC09F0E00217AEA /* PBXTargetDependency */,
+			);
+			name = BestNoteUITests;
+			productName = BestNoteUITests;
+			productReference = 227AAF431DC09F0E00217AEA /* BestNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227AAF141DC09F0E00217AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Wenba;
+				TargetAttributes = {
+					227AAF1B1DC09F0E00217AEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VY8VBVP6E2;
+						ProvisioningStyle = Automatic;
+					};
+					227AAF371DC09F0E00217AEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VY8VBVP6E2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 227AAF1B1DC09F0E00217AEA;
+					};
+					227AAF421DC09F0E00217AEA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VY8VBVP6E2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 227AAF1B1DC09F0E00217AEA;
+					};
+				};
+			};
+			buildConfigurationList = 227AAF171DC09F0E00217AEA /* Build configuration list for PBXProject "BestNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227AAF131DC09F0E00217AEA;
+			productRefGroup = 227AAF1D1DC09F0E00217AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227AAF1B1DC09F0E00217AEA /* BestNote */,
+				227AAF371DC09F0E00217AEA /* BestNoteTests */,
+				227AAF421DC09F0E00217AEA /* BestNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227AAF1A1DC09F0E00217AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F7C04B1DD2FC1800043562 /* bundle in Resources */,
+				222673561DD2D8F9003A73FA /* Main.storyboard in Resources */,
+				22F7C0451DD2F7FD00043562 /* Info.plist in Resources */,
+				222673551DD2D8F9003A73FA /* LaunchScreen.storyboard in Resources */,
+				22F7C0431DD2F7FD00043562 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227AAF361DC09F0E00217AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227AAF411DC09F0E00217AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		222673301DD2D03B003A73FA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/node_modules/react-native/packager/react-native-xcode.sh",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		62548DA6256433F46E1931D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestNote/Pods-BestNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9B1134F32478B0D025043E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8B297311A09744CEEC4148 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestNoteUITests/Pods-BestNoteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A98F02F47FB1C0B8A5BFB61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8305EA95873F908449DF53F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestNoteTests/Pods-BestNoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7612B3B9E67C1D05242C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestNoteUITests/Pods-BestNoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C486E5107F58071E465BA52F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestNoteTests/Pods-BestNoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E82BD5873C1D1AA82E934E5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC1A6D7B6DFB50C9E620CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BestNote/Pods-BestNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227AAF181DC09F0E00217AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F985661DDAB16700C21F84 /* ReactView.m in Sources */,
+				2226735A1DD2D8F9003A73FA /* User.m in Sources */,
+				222673531DD2D8F9003A73FA /* AppDelegate.m in Sources */,
+				222673591DD2D8F9003A73FA /* main.m in Sources */,
+				222673571DD2D8F9003A73FA /* BestNote.xcdatamodeld in Sources */,
+				2226735B1DD2D8F9003A73FA /* ViewController.m in Sources */,
+				22F7C0441DD2F7FD00043562 /* BestNote.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227AAF341DC09F0E00217AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22195F041DC1E39400FF6795 /* BestNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227AAF3F1DC09F0E00217AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227AAF481DC09F0E00217AEA /* BestNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227AAF3A1DC09F0E00217AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227AAF1B1DC09F0E00217AEA /* BestNote */;
+			targetProxy = 227AAF391DC09F0E00217AEA /* PBXContainerItemProxy */;
+		};
+		227AAF451DC09F0E00217AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227AAF1B1DC09F0E00217AEA /* BestNote */;
+			targetProxy = 227AAF441DC09F0E00217AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222673431DD2D8F9003A73FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222673441DD2D8F9003A73FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		222673451DD2D8F9003A73FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222673461DD2D8F9003A73FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227AAF4A1DC09F0E00217AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227AAF4B1DC09F0E00217AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227AAF4D1DC09F0E00217AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208A8476FE7E81BE9D425225 /* Pods-BestNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VY8VBVP6E2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+				);
+				INFOPLIST_FILE = BestNote/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-l\"stdc++\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.rick.MyLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		227AAF4E1DC09F0E00217AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E7E58B96CE6A334E848C4A /* Pods-BestNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VY8VBVP6E2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+				);
+				INFOPLIST_FILE = BestNote/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"React\"",
+					"-l\"stdc++\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.rick.MyLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		227AAF501DC09F0E00217AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D686BA32D9D91377344E3668 /* Pods-BestNoteTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VY8VBVP6E2;
+				INFOPLIST_FILE = BestNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.rick.MyLove.BestNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestNote.app/BestNote";
+			};
+			name = Debug;
+		};
+		227AAF511DC09F0E00217AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057CBA36968A9DE76ED639B6 /* Pods-BestNoteTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VY8VBVP6E2;
+				INFOPLIST_FILE = BestNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.rick.MyLove.BestNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestNote.app/BestNote";
+			};
+			name = Release;
+		};
+		227AAF531DC09F0E00217AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C745FE88104E560794EB7817 /* Pods-BestNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VY8VBVP6E2;
+				INFOPLIST_FILE = BestNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.rick.MyLove.BestNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BestNote;
+			};
+			name = Debug;
+		};
+		227AAF541DC09F0E00217AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E1BE0174163A7B3AB42C16 /* Pods-BestNoteUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VY8VBVP6E2;
+				INFOPLIST_FILE = BestNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.rick.MyLove.BestNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BestNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227AAF171DC09F0E00217AEA /* Build configuration list for PBXProject "BestNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227AAF4A1DC09F0E00217AEA /* Debug */,
+				227AAF4B1DC09F0E00217AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227AAF4C1DC09F0E00217AEA /* Build configuration list for PBXNativeTarget "BestNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227AAF4D1DC09F0E00217AEA /* Debug */,
+				227AAF4E1DC09F0E00217AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227AAF4F1DC09F0E00217AEA /* Build configuration list for PBXNativeTarget "BestNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227AAF501DC09F0E00217AEA /* Debug */,
+				227AAF511DC09F0E00217AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227AAF521DC09F0E00217AEA /* Build configuration list for PBXNativeTarget "BestNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227AAF531DC09F0E00217AEA /* Debug */,
+				227AAF541DC09F0E00217AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		222673471DD2D8F9003A73FA /* BestNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				222673481DD2D8F9003A73FA /* BestNote.xcdatamodel */,
+			);
+			currentVersion = 222673481DD2D8F9003A73FA /* BestNote.xcdatamodel */;
+			path = BestNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		22F7C0401DD2F7FD00043562 /* BestNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22F7C0411DD2F7FD00043562 /* BestNote.xcdatamodel */,
+			);
+			currentVersion = 22F7C0411DD2F7FD00043562 /* BestNote.xcdatamodel */;
+			path = BestNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 227AAF141DC09F0E00217AEA /* Project object */;
+}

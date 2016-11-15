@@ -1,0 +1,27 @@
+.nav{
+  height: 105rem;
+}
+.nav_title{
+  margin-top: 10rem;
+  font-size: 34rem;
+  font-weight: bold;
+}
+.container{
+  margin-top: 105rem;
+}
+.red{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.hide{
+  backface-visibility: hidden;
+}
+.icon_back{
+  width: 17rem;
+  height: 32rem;
+  /*position: absolute;*/
+  margin-top: 15rem;
+  margin-left: 15rem;
+}
+.d{
+  position: relative;
+}

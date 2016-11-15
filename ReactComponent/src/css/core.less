@@ -1,0 +1,63 @@
+@import (reference) './more-or-less/_more.less';
+.red() {
+    background-color: red !important;
+    opacity: 0.5;
+}
+
+.yh() {
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+
+.vleft() {
+    vertical-align: top;
+    float: left;
+}
+
+.vright() {
+    vertical-align: top;
+    float: right;
+}
+.center(){
+  margin: 0 auto;
+}
+
+.bg_p(@name) {
+    background-image: url('../images/@{name}.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.bg_j(@name) {
+    background-image: url('../images/@{name}.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.bg_img_j(@name) {
+    background-image: url('../images/@{name}.jpg');
+}
+
+.bg_img_p(@name) {
+    background-image: url('../images/@{name}.png');
+}
+.hlh(@num){
+  height: @num;
+  line-height: @num;
+}
+.f32(@c:@h){
+	font-size: .32rem;
+  color: @c;
+}
+.f30(@c:@h){
+	font-size: .3rem;
+  color: @c;
+}
+.f26(@c:@h){
+	font-size: .26rem;
+  color: @c;
+}
+@b:#2A89FF;
+@h:#5C6166;
+@g:#A1ADBA;
+@w:#fff;

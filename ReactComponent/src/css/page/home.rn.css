@@ -1,0 +1,139 @@
+.header{
+  width: 750rem;
+  height: 563rem;
+  background-color: #2A98FF;
+  flex: 1;
+}
+.badge{
+  margin-top: 34rem;
+  width: 142rem;
+  height: 191rem;
+  align-self: center;
+}
+.name{
+  text-align: center;
+  font-size: 30rem;
+  color: #fff;
+  margin-top: 20rem;
+}
+.desc{
+  font-size: 24rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+}
+.tips{
+  width: 750rem;
+  height: 60rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #5DB1FF;
+  flex:0;
+  flex-direction: row;
+}
+.tips_p{
+  width: 750rem;
+  align-self: center;
+  text-align: center;
+  font-size: 24rem;
+  color: #fff;
+}
+.label{
+  width: 750rem;
+  height: 70rem;
+  background-color: #F7F9FA;
+  padding: 0 30rem;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.p{
+  align-self: center;
+  color: #ACACAC;
+  font-size: 26rem;
+}
+.o{
+  color: #FFA839;
+}
+.right{
+  align-self: center;
+  color: #ACACAC;
+  font-size: 20rem;
+}
+.lists{
+  padding: 0 30rem;
+  width: 750rem;
+  border-top-width: 1;
+  border-top-color: #E7E7E7;
+  background-color: #fff;
+}
+.item{
+  height: 120rem;
+  flex: 0;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  border-bottom-width: 1;
+  border-bottom-color: #E7E7E7;
+}
+.item_nob{
+  border-bottom-width:0;
+}
+.img{
+  width: 48rem;
+  height: 48rem;
+  margin-right: 30rem;
+}
+.icon_right{
+  position: absolute;
+  width: 14rem;
+  height: 25rem;
+  right: 5rem;
+  top: 46rem;
+}
+.l_t{
+  font-size: 30rem;
+  color: #5C6166;
+  margin-bottom: 10rem;
+}
+.l_d{
+  font-size: 24rem;
+  color: #ACACAC
+}
+.progress{
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50rem;
+}
+.p_img{
+  width: 62rem;
+  height: 62rem;
+  align-self: center;
+}
+.p_text{
+  font-size: 20rem;
+  margin-top: 15rem;
+  text-align: center;
+  color: #fff;
+}
+.dashed{
+  position: absolute;
+  width: 750rem;
+  height: 4rem;
+  left: 0;
+  top: 31rem;
+}
+.avater{
+  position: absolute;
+  width: 62rem;
+  height: 62rem;
+  z-index: 1;
+}
+.bw{
+  width: 62rem;
+  height: 62rem;
+  border-radius: 50;
+  border-width: 1;
+  border-color: #fff;
+  position: absolute;
+}

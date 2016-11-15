@@ -1,0 +1,1 @@
+{"presets":["react-native"],"plugins":["transform-decorators-legacy",["react-native-css-class",{"pragma":"CSS"}]]}
