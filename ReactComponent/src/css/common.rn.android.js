@@ -11,7 +11,8 @@ export default StyleSheet.create({
         "height": 105 * w
     },
     "nav_title": {
-        "marginTop": 10 * w,
+        "marginTop": 50 * w,
+        "marginLeft": 160 * w,
         "fontSize": 34 * w,
         "fontWeight": "bold"
     },
@@ -27,7 +28,7 @@ export default StyleSheet.create({
     "icon_back": {
         "width": 17 * w,
         "height": 32 * w,
-        "marginTop": 15 * w,
+        "marginTop": 40 * w,
         "marginLeft": 15 * w
     },
     "d": {

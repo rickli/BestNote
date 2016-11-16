@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 global.Component = Component
 global.React = React
 
-import CSS from './css/common.rn.js';
+import CSS from './css/common.rn';
 global.CSS = CSS
 import * as Util from './js/Util.js'
 global.u=global.Util=Util;
