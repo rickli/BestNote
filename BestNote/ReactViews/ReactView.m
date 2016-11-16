@@ -13,8 +13,8 @@
 - (id) initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-//        NSURL *jsCodeLocation = [NSURL URLWithString:@"http://10.88.1.90:8081/index.ios.bundle?platform=ios"];
-        NSURL *jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"bundle/main" withExtension:@"jsbundle"];
+        NSURL *jsCodeLocation = [NSURL URLWithString:@"http://10.88.1.90:8081/index.ios.bundle?platform=ios"];
+//        NSURL *jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"bundle/main" withExtension:@"jsbundle"];
         /*
          For production use, this `NSURL` could instead point to a pre-bundled file on disk:
         
